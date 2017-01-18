@@ -14,6 +14,14 @@
 		558F5D0D1E26E8BE00955EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558F5D0B1E26E8BE00955EBA /* LaunchScreen.storyboard */; };
 		558F5D181E26E8BF00955EBA /* CadaverLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558F5D171E26E8BF00955EBA /* CadaverLogTests.swift */; };
 		558F5D231E26E8BF00955EBA /* CadaverLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558F5D221E26E8BF00955EBA /* CadaverLogUITests.swift */; };
+		55DD65F51E2FF09000B33F6A /* AMZRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DD65F41E2FF09000B33F6A /* AMZRemoteService.swift */; };
+		55DD65F71E2FF1FC00B33F6A /* AWZUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DD65F61E2FF1FC00B33F6A /* AWZUser.swift */; };
+		55DF109E1E2FB7EB00DAD8E5 /* RemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF109D1E2FB7EB00DAD8E5 /* RemoteService.swift */; };
+		55DF10A01E2FB7FE00DAD8E5 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF109F1E2FB7FE00DAD8E5 /* UserData.swift */; };
+		55DF10A71E2FE83D00DAD8E5 /* AMZConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF10A61E2FE83D00DAD8E5 /* AMZConstants.swift */; };
+		62114CC58AD2B048F995AEE0 /* Pods_CadaverLogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BAAFC88DFBDB253110EF57 /* Pods_CadaverLogTests.framework */; };
+		E3031521060B968B388D3004 /* Pods_CadaverLogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C3DAAC27645253E3E4C48B /* Pods_CadaverLogUITests.framework */; };
+		F531B8B1337FC569C214EB70 /* Pods_CadaverLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A00F088E77281B84D097790 /* Pods_CadaverLog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008EB7B938451B45289801F0 /* Pods-CadaverLogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadaverLogUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CadaverLogUITests/Pods-CadaverLogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		07C3DAAC27645253E3E4C48B /* Pods_CadaverLogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CadaverLogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		498D36D5E0FD5F66A04A5556 /* Pods-CadaverLogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadaverLogTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CadaverLogTests/Pods-CadaverLogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5318F7C2F2FE78B36C653A72 /* Pods-CadaverLogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadaverLogTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CadaverLogTests/Pods-CadaverLogTests.release.xcconfig"; sourceTree = "<group>"; };
 		558F5CFF1E26E8BE00955EBA /* CadaverLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CadaverLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		558F5D021E26E8BE00955EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558F5D041E26E8BE00955EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,16 @@
 		558F5D1E1E26E8BF00955EBA /* CadaverLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CadaverLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		558F5D221E26E8BF00955EBA /* CadaverLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadaverLogUITests.swift; sourceTree = "<group>"; };
 		558F5D241E26E8BF00955EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DD65F41E2FF09000B33F6A /* AMZRemoteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMZRemoteService.swift; sourceTree = "<group>"; };
+		55DD65F61E2FF1FC00B33F6A /* AWZUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWZUser.swift; sourceTree = "<group>"; };
+		55DF109D1E2FB7EB00DAD8E5 /* RemoteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteService.swift; sourceTree = "<group>"; };
+		55DF109F1E2FB7FE00DAD8E5 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		55DF10A61E2FE83D00DAD8E5 /* AMZConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMZConstants.swift; sourceTree = "<group>"; };
+		6A00F088E77281B84D097790 /* Pods_CadaverLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CadaverLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3A509AC2F4DC0A1CE2E669 /* Pods-CadaverLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadaverLog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CadaverLog/Pods-CadaverLog.debug.xcconfig"; sourceTree = "<group>"; };
+		91BAAFC88DFBDB253110EF57 /* Pods_CadaverLogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CadaverLogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0839EB938AAD4E4A7FDD0D /* Pods-CadaverLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadaverLog.release.xcconfig"; path = "Pods/Target Support Files/Pods-CadaverLog/Pods-CadaverLog.release.xcconfig"; sourceTree = "<group>"; };
+		BCFFF6085F6398642D36BCE2 /* Pods-CadaverLogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadaverLogUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CadaverLogUITests/Pods-CadaverLogUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F531B8B1337FC569C214EB70 /* Pods_CadaverLog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62114CC58AD2B048F995AEE0 /* Pods_CadaverLogTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3031521060B968B388D3004 /* Pods_CadaverLogUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		415B281F1C7E5D91E8577563 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A00F088E77281B84D097790 /* Pods_CadaverLog.framework */,
+				91BAAFC88DFBDB253110EF57 /* Pods_CadaverLogTests.framework */,
+				07C3DAAC27645253E3E4C48B /* Pods_CadaverLogUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		558F5CF61E26E8BE00955EBA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +116,8 @@
 				558F5D161E26E8BF00955EBA /* CadaverLogTests */,
 				558F5D211E26E8BF00955EBA /* CadaverLogUITests */,
 				558F5D001E26E8BE00955EBA /* Products */,
+				70A2F295D47C0F83E8132192 /* Pods */,
+				415B281F1C7E5D91E8577563 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +134,8 @@
 		558F5D011E26E8BE00955EBA /* CadaverLog */ = {
 			isa = PBXGroup;
 			children = (
+				55DF10A11E2FB80A00DAD8E5 /* AmazonService */,
+				55DF109C1E2FB7B900DAD8E5 /* RemoteServiceAPI */,
 				558F5D021E26E8BE00955EBA /* AppDelegate.swift */,
 				558F5D041E26E8BE00955EBA /* ViewController.swift */,
 				558F5D061E26E8BE00955EBA /* Main.storyboard */,
@@ -125,6 +164,38 @@
 			path = CadaverLogUITests;
 			sourceTree = "<group>";
 		};
+		55DF109C1E2FB7B900DAD8E5 /* RemoteServiceAPI */ = {
+			isa = PBXGroup;
+			children = (
+				55DF109D1E2FB7EB00DAD8E5 /* RemoteService.swift */,
+				55DF109F1E2FB7FE00DAD8E5 /* UserData.swift */,
+			);
+			name = RemoteServiceAPI;
+			sourceTree = "<group>";
+		};
+		55DF10A11E2FB80A00DAD8E5 /* AmazonService */ = {
+			isa = PBXGroup;
+			children = (
+				55DF10A61E2FE83D00DAD8E5 /* AMZConstants.swift */,
+				55DD65F41E2FF09000B33F6A /* AMZRemoteService.swift */,
+				55DD65F61E2FF1FC00B33F6A /* AWZUser.swift */,
+			);
+			name = AmazonService;
+			sourceTree = "<group>";
+		};
+		70A2F295D47C0F83E8132192 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F3A509AC2F4DC0A1CE2E669 /* Pods-CadaverLog.debug.xcconfig */,
+				9F0839EB938AAD4E4A7FDD0D /* Pods-CadaverLog.release.xcconfig */,
+				498D36D5E0FD5F66A04A5556 /* Pods-CadaverLogTests.debug.xcconfig */,
+				5318F7C2F2FE78B36C653A72 /* Pods-CadaverLogTests.release.xcconfig */,
+				BCFFF6085F6398642D36BCE2 /* Pods-CadaverLogUITests.debug.xcconfig */,
+				008EB7B938451B45289801F0 /* Pods-CadaverLogUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 558F5D271E26E8BF00955EBA /* Build configuration list for PBXNativeTarget "CadaverLog" */;
 			buildPhases = (
+				E7F36B7D9D7F01457A260040 /* [CP] Check Pods Manifest.lock */,
 				558F5CFB1E26E8BE00955EBA /* Sources */,
 				558F5CFC1E26E8BE00955EBA /* Frameworks */,
 				558F5CFD1E26E8BE00955EBA /* Resources */,
+				AE8C31D774E8CB6919637543 /* [CP] Embed Pods Frameworks */,
+				CD781258932D81BEA56AFEF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 558F5D2A1E26E8BF00955EBA /* Build configuration list for PBXNativeTarget "CadaverLogTests" */;
 			buildPhases = (
+				FC5314154280B40BC3A5AD4C /* [CP] Check Pods Manifest.lock */,
 				558F5D0F1E26E8BF00955EBA /* Sources */,
 				558F5D101E26E8BF00955EBA /* Frameworks */,
 				558F5D111E26E8BF00955EBA /* Resources */,
+				524E4C95BD082AEEC1065136 /* [CP] Embed Pods Frameworks */,
+				A516742AE14C06839CCA38E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 558F5D2D1E26E8BF00955EBA /* Build configuration list for PBXNativeTarget "CadaverLogUITests" */;
 			buildPhases = (
+				524D207FC14D20708A8F2E35 /* [CP] Check Pods Manifest.lock */,
 				558F5D1A1E26E8BF00955EBA /* Sources */,
 				558F5D1B1E26E8BF00955EBA /* Frameworks */,
 				558F5D1C1E26E8BF00955EBA /* Resources */,
+				8541CA3D975297B5C79E4AE4 /* [CP] Embed Pods Frameworks */,
+				411E09F18D78F01F09D0D0F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +337,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		411E09F18D78F01F09D0D0F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CadaverLogUITests/Pods-CadaverLogUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		524D207FC14D20708A8F2E35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		524E4C95BD082AEEC1065136 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CadaverLogTests/Pods-CadaverLogTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8541CA3D975297B5C79E4AE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CadaverLogUITests/Pods-CadaverLogUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A516742AE14C06839CCA38E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CadaverLogTests/Pods-CadaverLogTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE8C31D774E8CB6919637543 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CadaverLog/Pods-CadaverLog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD781258932D81BEA56AFEF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CadaverLog/Pods-CadaverLog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F36B7D9D7F01457A260040 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC5314154280B40BC3A5AD4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		558F5CFB1E26E8BE00955EBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				558F5D051E26E8BE00955EBA /* ViewController.swift in Sources */,
+				55DF109E1E2FB7EB00DAD8E5 /* RemoteService.swift in Sources */,
+				55DD65F71E2FF1FC00B33F6A /* AWZUser.swift in Sources */,
+				55DD65F51E2FF09000B33F6A /* AMZRemoteService.swift in Sources */,
+				55DF10A71E2FE83D00DAD8E5 /* AMZConstants.swift in Sources */,
+				55DF10A01E2FB7FE00DAD8E5 /* UserData.swift in Sources */,
 				558F5D031E26E8BE00955EBA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,7 +636,9 @@
 		};
 		558F5D281E26E8BF00955EBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3A509AC2F4DC0A1CE2E669 /* Pods-CadaverLog.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DE8BN3U97V;
 				INFOPLIST_FILE = CadaverLog/Info.plist;
@@ -426,7 +651,9 @@
 		};
 		558F5D291E26E8BF00955EBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0839EB938AAD4E4A7FDD0D /* Pods-CadaverLog.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DE8BN3U97V;
 				INFOPLIST_FILE = CadaverLog/Info.plist;
@@ -439,6 +666,7 @@
 		};
 		558F5D2B1E26E8BF00955EBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498D36D5E0FD5F66A04A5556 /* Pods-CadaverLogTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +682,7 @@
 		};
 		558F5D2C1E26E8BF00955EBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5318F7C2F2FE78B36C653A72 /* Pods-CadaverLogTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +698,7 @@
 		};
 		558F5D2E1E26E8BF00955EBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCFFF6085F6398642D36BCE2 /* Pods-CadaverLogUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DE8BN3U97V;
@@ -483,6 +713,7 @@
 		};
 		558F5D2F1E26E8BF00955EBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 008EB7B938451B45289801F0 /* Pods-CadaverLogUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DE8BN3U97V;
@@ -514,6 +745,7 @@
 				558F5D291E26E8BF00955EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		558F5D2A1E26E8BF00955EBA /* Build configuration list for PBXNativeTarget "CadaverLogTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +754,7 @@
 				558F5D2C1E26E8BF00955EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		558F5D2D1E26E8BF00955EBA /* Build configuration list for PBXNativeTarget "CadaverLogUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +763,7 @@
 				558F5D2F1E26E8BF00955EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

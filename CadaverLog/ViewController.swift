@@ -9,17 +9,42 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        roundedCornerButton.layer.cornerRadius = 4
+        roundedCornerButton.layer.borderWidth = 0.8
+        roundedCornerButton.layer.borderColor = UIColor.white.cgColor
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    // variables for email and password text fields
+    
+    @IBOutlet private weak var roundedCornerButton: UIButton!
+    @IBOutlet private weak var loginEmail: UITextField!
+    @IBOutlet private weak var loginPassword: UITextField!
+    
+    
+    @IBAction func signIn(_ sender: UIButton) {
+        // do shit when the button is pressed
+        
+        // hide keyboard when Sign In is pressed
+        self.loginPassword.resignFirstResponder()
+        self.loginPassword.resignFirstResponder()
+
     }
-
-
+    
+    
+    // built in method that tracks if the screen has been touched yet
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        // self.view is the entire screen so touching anywhere drops
+        // first responder status (removes keyboard)
+        
+        self.view.endEditing(true)
+    }
+    
+    
+    
 }
 
