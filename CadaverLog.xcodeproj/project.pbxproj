@@ -14,7 +14,7 @@
 		558F5D0D1E26E8BE00955EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558F5D0B1E26E8BE00955EBA /* LaunchScreen.storyboard */; };
 		558F5D181E26E8BF00955EBA /* CadaverLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558F5D171E26E8BF00955EBA /* CadaverLogTests.swift */; };
 		558F5D231E26E8BF00955EBA /* CadaverLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558F5D221E26E8BF00955EBA /* CadaverLogUITests.swift */; };
-		55DD65F51E2FF09000B33F6A /* AMZRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DD65F41E2FF09000B33F6A /* AMZRemoteService.swift */; };
+		5592AFCC1E2FF81E00A53CC0 /* AMZRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592AFCB1E2FF81E00A53CC0 /* AMZRemoteService.swift */; };
 		55DD65F71E2FF1FC00B33F6A /* AWZUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DD65F61E2FF1FC00B33F6A /* AWZUser.swift */; };
 		55DF109E1E2FB7EB00DAD8E5 /* RemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF109D1E2FB7EB00DAD8E5 /* RemoteService.swift */; };
 		55DF10A01E2FB7FE00DAD8E5 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF109F1E2FB7FE00DAD8E5 /* UserData.swift */; };
@@ -59,7 +59,7 @@
 		558F5D1E1E26E8BF00955EBA /* CadaverLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CadaverLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		558F5D221E26E8BF00955EBA /* CadaverLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadaverLogUITests.swift; sourceTree = "<group>"; };
 		558F5D241E26E8BF00955EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55DD65F41E2FF09000B33F6A /* AMZRemoteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMZRemoteService.swift; sourceTree = "<group>"; };
+		5592AFCB1E2FF81E00A53CC0 /* AMZRemoteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMZRemoteService.swift; sourceTree = "<group>"; };
 		55DD65F61E2FF1FC00B33F6A /* AWZUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWZUser.swift; sourceTree = "<group>"; };
 		55DF109D1E2FB7EB00DAD8E5 /* RemoteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteService.swift; sourceTree = "<group>"; };
 		55DF109F1E2FB7FE00DAD8E5 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
@@ -177,8 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				55DF10A61E2FE83D00DAD8E5 /* AMZConstants.swift */,
-				55DD65F41E2FF09000B33F6A /* AMZRemoteService.swift */,
 				55DD65F61E2FF1FC00B33F6A /* AWZUser.swift */,
+				5592AFCB1E2FF81E00A53CC0 /* AMZRemoteService.swift */,
 			);
 			name = AmazonService;
 			sourceTree = "<group>";
@@ -482,8 +482,8 @@
 			files = (
 				558F5D051E26E8BE00955EBA /* ViewController.swift in Sources */,
 				55DF109E1E2FB7EB00DAD8E5 /* RemoteService.swift in Sources */,
+				5592AFCC1E2FF81E00A53CC0 /* AMZRemoteService.swift in Sources */,
 				55DD65F71E2FF1FC00B33F6A /* AWZUser.swift in Sources */,
-				55DD65F51E2FF09000B33F6A /* AMZRemoteService.swift in Sources */,
 				55DF10A71E2FE83D00DAD8E5 /* AMZConstants.swift in Sources */,
 				55DF10A01E2FB7FE00DAD8E5 /* UserData.swift in Sources */,
 				558F5D031E26E8BE00955EBA /* AppDelegate.swift in Sources */,
